@@ -1,18 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import LandingPage from "./pages/LandingPage";
+
 import AOS from "aos";
 import "aos/dist/aos.css"; // import AOS styles
-import Footer from "./Components/Footer";
-
+import ServicesPage from "./pages/ServicesPage";
+// import Footer from "./"
 AOS.init();
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <LandingPage />
-      <Footer/>
+      <ServicesPage/>
     </div>
   );
 }
