@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import companyLogo from "../assets/logo.png";
-import profile from "../assets/founder.jpeg";
+import profile from "../assets/founder.jpg";
 import health from "../assets/health.png";
 import amet from "../assets/amet.png";
 import health1 from "../assets/health1.png";
@@ -53,7 +53,7 @@ const AboutUs = () => {
       {/* Founder Section */}
       <div className="relative flex flex-col md:flex-row items-center max-w-6xl space-y-12 md:space-y-0 md:space-x-10 px-10 mt-24"> 
         {/* Profile Picture Frame */}
-        <div className="relative w-56 h-56 md:w-64 md:h-64 transform transition-transform duration-700 hover:rotate-6 hover:scale-110" data-aos="zoom-in">
+        <div className="relative w-56 h-56 md:w-64 md:h-96 transform transition-transform duration-700 hover:rotate-6 hover:scale-110" data-aos="zoom-in">
           <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-xl shadow-2xl blur-md rotate-6"></div>
           <div className="relative w-full h-full bg-white rounded-3xl flex items-center justify-center border-4 border-gray-300 shadow-lg overflow-hidden">
             <img 
