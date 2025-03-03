@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import companyLogo from "../assets/logo.png";
-import profile from "../assets/profile.png";
+import profile from "../assets/founder.jpeg";
 import health from "../assets/health.png";
 import amet from "../assets/amet.png";
 import health1 from "../assets/health1.png";
